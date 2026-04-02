@@ -15,6 +15,7 @@ Example:
 This example shows some of the different data types in Go:
 
 ```go
+go
 
 package main
 import ("fmt")
