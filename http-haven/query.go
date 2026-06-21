@@ -6,7 +6,7 @@ import (
 )
 
 func query(w http.ResponseWriter, r *http.Request) {
-	if r.Method != http.MethodPost {
+	if r.Method != http.MethodGet {
 		http.Error(w, "Not allowed", http.StatusMethodNotAllowed)
 		return
 	}
